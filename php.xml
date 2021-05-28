@@ -1,19 +1,23 @@
 <application>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter id="265d53cb-4880-4471-ad41-b60af7ae4f09" name="PHP 8.0" home="/usr/local/Cellar/php/8.0.2/bin/php" debugger_id="php.debugger.XDebug" />
+      <interpreter id="265d53cb-4880-4471-ad41-b60af7ae4f09" name="PHP 8.0" home="/usr/local/Cellar/php/8.0.6_1/bin/php" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 8.0">
-        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php/8.0.2/bin/php-cgi" php_cli="/usr/local/Cellar/php/8.0.2/bin/php" path_separator=":" version="8.0.2">
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php/8.0.6_1/bin/php-cgi" php_cli="/usr/local/Cellar/php/8.0.6_1/bin/php" path_separator=":" version="8.0.6">
           <additional_php_ini>/usr/local/etc/php/8.0/conf.d/ext-opcache.ini</additional_php_ini>
           <configuration_file>/usr/local/etc/php/8.0/php.ini</configuration_file>
           <configuration_options>
-            <configuration_option name="include_path" value=".:/usr/local/Cellar/php/8.0.2/share/php/pear" />
+            <configuration_option name="include_path" value=".:/usr/local/Cellar/php/8.0.6_1/share/php/pear" />
           </configuration_options>
-          <debuggers />
+          <debuggers>
+            <debugger_info debugger="xdebug" debugger_version="3.0.4">
+              <debug_extensions />
+            </debugger_info>
+          </debuggers>
           <loaded_extensions>
             <extension name="Core" />
             <extension name="FFI" />
@@ -73,6 +77,7 @@
             <extension name="sysvshm" />
             <extension name="tidy" />
             <extension name="tokenizer" />
+            <extension name="xdebug" />
             <extension name="xml" />
             <extension name="xmlreader" />
             <extension name="xmlwriter" />
